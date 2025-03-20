@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(/images/hexagonal-texture-background.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(59deg, rgba(0,113,15,1) 0%, rgba(0,53,75,1) 100%); */
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 30%;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 8px;
+    color: rgb(0, 255, 225);
+    text-shadow: 0px 0px 8px rgb(0, 0, 0);
+}
+
+hr {
+    width: 50%;
+    margin: 0 auto;
+    height: 5PX;
+    border: none;
+    background: linear-gradient(90deg, rgba(0, 255, 34, 1) 0%, rgba(0, 180, 255, 1) 100%);
+    border-radius: 100%;
+    margin-bottom: 25px;
+}
+
+label {
+    color: rgb(0, 255, 225);
+    font-size: 22px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    color: rgba(0, 255, 225, 0.636);
+    background-color: black;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid rgb(0, 255, 34);
+    box-shadow: 0px 0px 5px rgb(0, 255, 34);
+}
+
+ul.criteria {
+    margin-bottom: 15px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+ul.criteria li {
+    list-style: none; 
+    margin-bottom: 5px;
+}
+
+ul.criteria li.valid {
+    color: green;
+}
+
+ul.criteria li.invalid {
+    color: red;
+}
+
+::placeholder {
+    color: rgb(0, 255, 225, 0.636);
+}
+
+.toggel-button {
+    background: none;
+    font-size: 20px;
+    border: none;
+    text-shadow: 0px 0px 4px rgb(0, 255, 225);
+}
+
+.submit-btn {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    border: none;
+    transition: transform 0.3s ease;
+    background: linear-gradient(90deg, rgba(0, 255, 34, 1) 0%, rgba(0, 180, 255, 1) 100%);
+}
+
+.submit-btn:hover{
+    transform: scale(1.05);
+    background: linear-gradient(90deg, rgba(0, 180, 255, 1) 0%, rgba(0, 255, 34, 1) 100%);
+}
