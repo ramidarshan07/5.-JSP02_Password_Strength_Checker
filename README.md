@@ -13,9 +13,6 @@ This project implements a **Password Strength Checker** using HTML, CSS, and Jav
 - Shows suggestions for improving password security.
 - Toggle option to show/hide the password.
 
-## 📸 Project Output
-![Password Strength Checker](./screenshot.png)
-
 ## 📚 How to Run
 1. Clone the repository:
    ```bash
