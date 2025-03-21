@@ -1,5 +1,7 @@
 # Password Strength Checker
 
+![Screenshot 2025-03-21 171948](https://github.com/user-attachments/assets/17df6adf-52e3-4edd-964e-5dc85f778abc)
+
 This project implements a **Password Strength Checker** using HTML, CSS, and JavaScript. It provides real-time feedback to users about the strength of their password, ensuring secure password creation.
 
 ## 🛠️ Technologies Used
